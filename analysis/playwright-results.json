@@ -1,0 +1,450 @@
+{
+  "desktop": {
+    "loadTimeMs": 7008,
+    "consoleMsgs": [
+      {
+        "type": "debug",
+        "text": "[vite] connecting..."
+      },
+      {
+        "type": "debug",
+        "text": "[vite] connected."
+      },
+      {
+        "type": "info",
+        "text": "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold"
+      },
+      {
+        "type": "error",
+        "text": "Warning: React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element.%s fetchPriority fetchpriority \n    at img\n    at div\n    at div\n    at div\n    at Landing (http://localhost:5173/src/components/Landing.tsx:19:20)\n    at div\n    at div\n    at MainContainer (http://localhost:5173/src/components/MainContainer.tsx:31:26)\n    at Suspense\n    at main\n    at LoadingProvider (http://localhost:5173/src/context/LoadingProvider.tsx:26:35)\n    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:6312:26)\n    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:7161:3)\n    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:7102:13)\n    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:10272:3)\n    at App"
+      },
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x13c0043a200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x13c0043a200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x13c0043a200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x13c0043a200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "type": "warning",
+        "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Web Analytics]%c [view] http://localhost:5173/ color: rgb(120, 120, 120) color: inherit {o: http://localhost:5173/, sv: 0.1.3, sdkn: @vercel/analytics/react, sdkv: 1.4.1, ts: 1791592721237} /_vercel/insights/view"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "debug",
+        "text": "[vite] connecting..."
+      },
+      {
+        "type": "debug",
+        "text": "[vite] connected."
+      },
+      {
+        "type": "info",
+        "text": "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Web Analytics]%c [view] http://localhost:5173/ color: rgb(120, 120, 120) color: inherit {o: http://localhost:5173/, sv: 0.1.3, sdkn: @vercel/analytics/react, sdkv: 1.4.1, ts: 1791592780530} /_vercel/insights/view"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"
+      },
+      {
+        "type": "error",
+        "text": "Warning: React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element.%s fetchPriority fetchpriority \n    at img\n    at div\n    at div\n    at div\n    at Landing (http://localhost:5173/src/components/Landing.tsx:19:20)\n    at div\n    at div\n    at MainContainer (http://localhost:5173/src/components/MainContainer.tsx:31:26)\n    at Suspense\n    at main\n    at LoadingProvider (http://localhost:5173/src/context/LoadingProvider.tsx:26:35)\n    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:6312:26)\n    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:7161:3)\n    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:7102:13)\n    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:10272:3)\n    at App"
+      },
+      {
+        "type": "warning",
+        "text": "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+      }
+    ],
+    "failedRequests": [],
+    "responseCount": 272,
+    "errorResponses": [],
+    "seo": {
+      "title": "Redoyanul Haque - AI Developer | Python Engineer",
+      "metaDescription": null,
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": null,
+      "viewport": "width=device-width, initial-scale=1.0",
+      "canonical": null,
+      "favicon": null,
+      "h1Count": 1,
+      "h1Text": [
+        "REDOYANUL HAQUE"
+      ],
+      "h2Count": 8,
+      "imgCount": 48,
+      "imgMissingAlt": 0,
+      "langAttr": "en"
+    },
+    "navTest": {
+      "error": "TimeoutError: page.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[data-href=\"#work\"]')\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"#work\" data-href=\"#work\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"loaderGame false\">…</div> from <div class=\"loading-header\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"loaderGame false\">…</div> from <div class=\"loading-header\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    14 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div class=\"loaderGame false\">…</div> from <div class=\"loading-header\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n"
+    }
+  },
+  "tablet": {
+    "loadTimeMs": 415,
+    "consoleMsgs": [
+      {
+        "type": "debug",
+        "text": "[vite] connecting..."
+      },
+      {
+        "type": "debug",
+        "text": "[vite] connected."
+      },
+      {
+        "type": "info",
+        "text": "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold"
+      },
+      {
+        "type": "error",
+        "text": "Warning: React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element.%s fetchPriority fetchpriority \n    at img\n    at div\n    at div\n    at div\n    at Landing (http://localhost:5173/src/components/Landing.tsx:19:20)\n    at div\n    at div\n    at MainContainer (http://localhost:5173/src/components/MainContainer.tsx:31:26)\n    at Suspense\n    at main\n    at LoadingProvider (http://localhost:5173/src/context/LoadingProvider.tsx:26:35)\n    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:6312:26)\n    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:7161:3)\n    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:7102:13)\n    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:10272:3)\n    at App"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Web Analytics]%c [view] http://localhost:5173/ color: rgb(120, 120, 120) color: inherit {o: http://localhost:5173/, sv: 0.1.3, sdkn: @vercel/analytics/react, sdkv: 1.4.1, ts: 1791592817181} /_vercel/insights/view"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      }
+    ],
+    "failedRequests": [],
+    "responseCount": 111,
+    "errorResponses": [],
+    "seo": {
+      "title": "Redoyanul Haque - AI Developer | Python Engineer",
+      "metaDescription": null,
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": null,
+      "viewport": "width=device-width, initial-scale=1.0",
+      "canonical": null,
+      "favicon": null,
+      "h1Count": 1,
+      "h1Text": [
+        "REDOYANUL HAQUE"
+      ],
+      "h2Count": 8,
+      "imgCount": 48,
+      "imgMissingAlt": 0,
+      "langAttr": "en"
+    },
+    "navTest": null
+  },
+  "mobile": {
+    "loadTimeMs": 433,
+    "consoleMsgs": [
+      {
+        "type": "debug",
+        "text": "[vite] connecting..."
+      },
+      {
+        "type": "debug",
+        "text": "[vite] connected."
+      },
+      {
+        "type": "info",
+        "text": "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold"
+      },
+      {
+        "type": "error",
+        "text": "Warning: React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element.%s fetchPriority fetchpriority \n    at img\n    at div\n    at div\n    at div\n    at Landing (http://localhost:5173/src/components/Landing.tsx:19:20)\n    at div\n    at div\n    at MainContainer (http://localhost:5173/src/components/MainContainer.tsx:31:26)\n    at Suspense\n    at main\n    at LoadingProvider (http://localhost:5173/src/context/LoadingProvider.tsx:26:35)\n    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:6312:26)\n    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:7161:3)\n    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:7102:13)\n    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=c8133a0c:10272:3)\n    at App"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Web Analytics]%c [view] http://localhost:5173/ color: rgb(120, 120, 120) color: inherit {o: http://localhost:5173/, sv: 0.1.3, sdkn: @vercel/analytics/react, sdkv: 1.4.1, ts: 1791592829274} /_vercel/insights/view"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      },
+      {
+        "type": "warning",
+        "text": "GSAP target  not found. https://gsap.com"
+      }
+    ],
+    "failedRequests": [],
+    "responseCount": 111,
+    "errorResponses": [],
+    "seo": {
+      "title": "Redoyanul Haque - AI Developer | Python Engineer",
+      "metaDescription": null,
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": null,
+      "viewport": "width=device-width, initial-scale=1.0",
+      "canonical": null,
+      "favicon": null,
+      "h1Count": 1,
+      "h1Text": [
+        "REDOYANUL HAQUE"
+      ],
+      "h2Count": 8,
+      "imgCount": 48,
+      "imgMissingAlt": 0,
+      "langAttr": "en"
+    },
+    "navTest": null
+  },
+  "routes": {
+    "consoleMsgs": [
+      {
+        "type": "debug",
+        "text": "[vite] connecting..."
+      },
+      {
+        "type": "debug",
+        "text": "[vite] connected."
+      },
+      {
+        "type": "info",
+        "text": "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Web Analytics]%c [view] http://localhost:5173/myworks color: rgb(120, 120, 120) color: inherit {o: http://localhost:5173/myworks, sv: 0.1.3, sdkn: @vercel/analytics/react, sdkv: 1.4.1, ts: 1791592841045} /_vercel/insights/view"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"
+      },
+      {
+        "type": "debug",
+        "text": "[vite] connecting..."
+      },
+      {
+        "type": "debug",
+        "text": "[vite] connected."
+      },
+      {
+        "type": "info",
+        "text": "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Web Analytics]%c [view] http://localhost:5173/play color: rgb(120, 120, 120) color: inherit {o: http://localhost:5173/play, sv: 0.1.3, sdkn: @vercel/analytics/react, sdkv: 1.4.1, ts: 1791592842825} /_vercel/insights/view"
+      },
+      {
+        "type": "log",
+        "text": "%c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"
+      }
+    ],
+    "chessTest": "clicked square ok"
+  }
+}

@@ -1,0 +1,136 @@
+.cursor-main {
+  --size: 0px;
+  position: fixed;
+  top: calc(var(--size) / -2);
+  left: calc(var(--size) / -2);
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50px;
+  pointer-events: none;
+  z-index: 99;
+  background-color: #e6c3ff;
+  box-shadow: 0px 0px 30px 0px rgb(175, 131, 255);
+  mix-blend-mode: difference;
+  transition: top 0.3s ease-out, left 0.3s ease-out, width 0.3s ease-out,
+    height 0.3s ease-out;
+}
+.cursor-icons {
+  top: 10px;
+  left: 10px;
+  height: calc(var(--cursorH) - 20px);
+  transition: all 0.5s ease-out, height 0.5s ease-in-out;
+}
+.cursor-disable {
+  --size: 0px;
+}
+
+/* Ring: slower-following outline, grows + shows a label on hover targets */
+.cursor-ring {
+  --ring-size: 0px;
+  position: fixed;
+  top: calc(var(--ring-size) / -2);
+  left: calc(var(--ring-size) / -2);
+  width: var(--ring-size);
+  height: var(--ring-size);
+  border-radius: 50%;
+  border: 1px solid var(--accentColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 97;
+  opacity: 0;
+  transition: width 0.3s ease-out, height 0.3s ease-out, opacity 0.3s ease-out;
+}
+.cursor-ring-active {
+  --ring-size: 90px;
+  opacity: 1;
+  background: rgba(194, 164, 255, 0.08);
+}
+.cursor-ring-label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #fff;
+  white-space: nowrap;
+}
+
+/* Trail: fading dots behind the main cursor */
+.cursor-trail {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 96;
+}
+.cursor-trail-dot {
+  position: fixed;
+  top: -4px;
+  left: -4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accentColor);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.cursor-particles {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 3;
+}
+
+/* Spotlight: soft ambient glow following the cursor */
+.cursor-spotlight {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 4;
+  background: radial-gradient(
+    380px circle at var(--spot-x, 50%) var(--spot-y, 50%),
+    rgba(194, 164, 255, 0.1),
+    transparent 70%
+  );
+}
+
+/* Click ripples */
+.cursor-ripple-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  overflow: hidden;
+}
+.cursor-ripple {
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid var(--accentColor);
+  transform: scale(0);
+}
+
+@media only screen and (min-width: 600px) {
+  .cursor-main {
+    --size: 50px;
+  }
+  .cursor-disable {
+    --size: 0px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cursor-main,
+  .cursor-ring,
+  .cursor-trail,
+  .cursor-spotlight,
+  .cursor-ripple-layer {
+    display: none;
+  }
+}
