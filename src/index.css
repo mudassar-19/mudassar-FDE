@@ -15,9 +15,9 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --accentColor: #c2a4ff;
-  --accentColor2: #7c5cff;
-  --accentColor3: #ff8de0;
+  --accentColor: #ff7744;
+  --accentColor2: #ff2a2a;
+  --accentColor3: #ff8c00;
   --backgroundColor: #0b080c;
   --vh: 100vh;
   --vh: 100svh;
@@ -153,8 +153,8 @@ body {
   right: 0;
   bottom: 0;
   background:
-    radial-gradient(circle at 20% 50%, rgba(194, 164, 255, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 50%, rgba(194, 164, 255, 0.08) 0%, transparent 50%);
+    radial-gradient(circle at 20% 50%, rgba(255, 100, 0, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 50%, rgba(255, 50, 0, 0.08) 0%, transparent 50%);
   pointer-events: none;
   z-index: 0;
 }

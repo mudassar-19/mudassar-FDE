@@ -111,8 +111,8 @@
   position: fixed;
   width: 300px;
   height: 300px;
-  background-color: #fb8dff;
-  box-shadow: inset -50px 40px 50px rgba(84, 0, 255, 0.6);
+  background-color: #ff5500;
+  box-shadow: inset -50px 40px 50px rgba(255, 80, 0, 0.6);
   filter: blur(60px);
   border-radius: 50%;
   animation: loadingCircle 5s linear infinite;
@@ -153,8 +153,8 @@
   display: none;
   width: 300px;
   height: 300px;
-  background-color: #fb8dff;
-  box-shadow: inset -50px 40px 50px rgba(84, 0, 255, 0.6);
+  background-color: #ff8c00;
+  box-shadow: inset -50px 40px 50px rgba(255, 80, 0, 0.6);
   filter: blur(50px);
   border-radius: 50%;
   animation: loadingCircle2 5s linear infinite;
@@ -186,9 +186,9 @@
   width: 400px;
   height: 400px;
   z-index: 1;
-  background-color: #f59bf8;
+  background-color: #ff5500;
   transform: translate(-50%, 36%) scaleX(1.4);
-  box-shadow: inset 66px 35px 85px 0px rgba(85, 0, 255, 0.65);
+  box-shadow: inset 66px 35px 85px 0px rgba(255, 80, 0, 0.65);
   filter: blur(50px);
   border-radius: 50%;
   top: 50%;
@@ -322,7 +322,11 @@
 }
 
 h2.landing-info-h2 {
-  color: #c481ff;
+  background: linear-gradient(to right, #ff2a2a, #ff8c00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
   font-size: 36px;
   width: auto;
   max-width: 420px;
